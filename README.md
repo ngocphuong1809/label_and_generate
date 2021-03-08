@@ -1,6 +1,6 @@
 # label_and_generate
 
-Firstly, you clone labelImage in https://github.com/tzutalin/labelImg to label for your images with format you want such as .txt, .xml.
+Firstly, you clone labelImage in https://github.com/tzutalin/labelImg to label for your images with format you want such as .txt, .xml. And download https://github.com/tensorflow/models/tree/master/research/object_detection
 
 LabelImg saves a .xml file containing the label data for each image. These .xml files will be used to generate TFRecords, which are one of the inputs to the TensorFlow trainer. Once you have labeled and saved each image, there will be one .xml file for each image in the \test and \train directories.
 
